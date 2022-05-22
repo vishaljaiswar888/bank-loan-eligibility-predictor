@@ -1,1 +1,0 @@
-# bank-loan-eligibility-predictor
