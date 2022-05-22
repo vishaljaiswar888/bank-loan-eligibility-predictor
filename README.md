@@ -1,4 +1,4 @@
-## Bank Loan Eligibilty Prediction ML Model
+## Bank Loan Eligibility Prediction ML Model
 - This is end-to-end machine learning model which predicts whether a user is eligible for loan or not as per the inputs given.
 - Interface is made using python’s flask web framework.
 
