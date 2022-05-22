@@ -1,4 +1,4 @@
-## Bank Loan Eligibilty Prediction Model
+## Bank Loan Eligibilty Prediction ML Model
 This is end-to-end machine learning model build using python's flask web framework for the deployment.
 
 ## Models used
