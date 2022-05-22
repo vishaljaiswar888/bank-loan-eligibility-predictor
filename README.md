@@ -1,5 +1,6 @@
 ## Bank Loan Eligibilty Prediction ML Model
-This is end-to-end machine learning model build using python's flask web framework for the deployment.
+- This is end-to-end machine learning model which predicts whether a user is eligible for loan or not as per the inputs given.
+- Interface is made using python’s flask web framework.
 
 ## Models used
 - Logistic Regression - (83% accuracy)
