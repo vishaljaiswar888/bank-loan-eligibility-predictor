@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loan Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <form method="post" action="/">
+        <div class="form-group">
+        <center>
+
+        <h1 style="margin-top: 15px; font-weight: 1000; color: black;">Bank Loan Eligibility Predictor</h1>
+        <hr>
+        <br>
+        
+        <label for="genderid" size="50" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Gender</label>
+        <input style="width: 500px;" type="text" class="form-control" id="genderid" name="genderid" placeholder="Male/ Female">
+        <br>
+
+        <label for="marriedid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Married</label>
+        <input style="width: 500px;" type="text" class="form-control" id="marriedid" name="marriedid" placeholder="Yes/ No">
+        <br>
+
+        <label for="dependentsid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Dependents</label>
+        <input style="width: 500px;" type="number" class="form-control" id="dependentsid" name="dependentsid" placeholder="0, 1, 2 or 3">
+        <br>
+
+        <label for="eduid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Education</label>
+        <input style="width: 500px;" type="text" class="form-control" id="eduid" name="eduid" placeholder="Graduate/ Not Graduate">
+        <br>
+
+        <label for="seid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Self Employed</label>
+        <input style="width: 500px;" type="text" class="form-control" id="seid" name="seid" placeholder="Yes/ No">
+        <br>
+
+        <label for="aiid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Applicant Income</label>
+        <input style="width: 500px;" type="number" class="form-control" id="aiid" name="aiid" placeholder="Your Income Amount in USD">
+        <br>
+
+        <label for="caiid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Coapplicant Income</label>
+        <input style="width: 500px;" type="number" class="form-control" id="caiid" name="caiid" placeholder="Dependent's Income Amount in USD">
+        <br>
+
+        <label for="laid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Loan Amount</label>
+        <input style="width: 500px;" type="number" class="form-control" id="laid" name="laid" placeholder="Loan Amount in USD">
+        <br>
+
+        <label for="latid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Loan Duration</label>
+        <input style="width: 500px;" type="number" class="form-control" id="latid" name="latid" placeholder="Loan Duration in Days">
+        <br>
+
+        <label for="chid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Credit History Score</label>
+        <input style="width: 500px;" type="number" class="form-control" id="chid" name="chid" placeholder="0 or 1">
+        <br>
+
+        <label for="paid" style="font-weight: 700; font-size:21px; color: black;" class="form-label">Property Area</label>
+        <input style="width: 500px;" type="text" class="form-control" id="paid" name="paid" placeholder="Rural/ Semiurban/ Urban">
+        <br>
+
+        <button type="submit" class="btn btn-success">Predict</button>
+        <br>
+        <hr>
+    </center>
+    </div>
+    </form>
+    <style>
+      body {
+        background-image: url("{{url_for('static', filename='images/photo6.webp')}}");
+        background-color: #cccccc;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
