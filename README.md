@@ -11,8 +11,8 @@
     - this model overfitted on training data. That's why I had remove this while deployment.
 
 ## Webpage Interface
-![Screenshot (968)](https://user-images.githubusercontent.com/102510153/169701209-d9a5229f-2bcd-454a-9c0d-a5acc8124b61.png)
-![Screenshot (969)](https://user-images.githubusercontent.com/102510153/169701227-ad7eb1c9-25e3-4a9b-af72-9d8e7a0ff52b.png)
+![Screenshot (971)](https://user-images.githubusercontent.com/102510153/169939734-e7eec4aa-f280-469c-bf1b-68489780975b.png)
+![Screenshot (970)](https://user-images.githubusercontent.com/102510153/169939740-24639815-6208-4e64-8ea8-c74eb22ca822.png)
 
 ## Tools Used
 - IDEs: Jupyter Notebook, VS Code
